@@ -1,0 +1,255 @@
+body{
+    background-color: rgb(221, 215, 215);
+}
+
+ol {
+    margin: 0;
+    padding: 0 16px;
+    overflow: hidden;
+    background-color: #896e72;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #b6abee;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 48px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 4px;
+}
+
+li a:hover {
+    color: #f1d5d5;
+    background-color: rgba(254, 153, 150, 0.1);
+}
+
+body {
+  font-family: "Courier";  
+
+}
+
+
+
+p {
+  line-height: 1.8;
+  font-size: 16px;        
+  margin-bottom: 20px; 
+}
+
+h1 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: none;       
+  border-bottom: 4px solid #AF828D; 
+  padding-bottom: 8px;         
+  display: inline-block;        
+}
+
+.nickname {
+    font-style: italic;
+    color: #000000; 
+    font-weight: bold;
+    display: block; 
+    margin: 15px 0; 
+    border-left: 3px solid #AF828D; 
+    padding-left: 15px; 
+}
+
+.main-card {
+    background-color: white;
+    border: 1px solid #d1ccc0;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 900px;
+    clear: both; 
+}
+
+#graphic-design-header {
+    text-decoration: underline;
+    font-size: 18px;        
+    color: #382a2d;
+    margin-top: 20px;
+}
+
+
+
+.image-caption {
+    color: #050f46;             
+    text-align: center;       
+    font-size: 1.5em;           
+    font-style: italic;         
+    margin-bottom: 20px;  
+    font-weight: bold;    
+}
+
+
+.img-left {
+    float: left;            
+    margin: 0 25px 15px 0;  
+    border: 5px solid #000000; 
+    width: 350px;          
+    height: auto;
+}
+
+.img-right {
+    float: right;           
+    margin: 0 0 15px 25px;  
+    border: 5px solid #000000; 
+    width: 390px;
+    height: auto;
+}
+
+.img-left, .img-right {
+    width: 300px; 
+    border: 5px solid #000000;
+}
+
+
+.text-wrap-container {
+    overflow: hidden; 
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 16px;       
+    line-height: 1.8;     
+    margin: 0;
+
+}
+
+
+.img-left2 {
+    float: left;            
+    margin: 0 25px 15px 0;  
+    border: 5px solid #000000; 
+    width: 300px;          
+    height: auto;
+}
+
+.img-right2 {
+    float: right;           
+    margin: 0 0 15px 25px;  
+    border: 5px solid #000000; 
+    width: 400px;
+    height: auto;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center; 
+  gap: 30px;           
+}
+
+
+.tree, .tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.tree ul {
+    margin-left: 30px; 
+}
+
+.tree li {
+    margin: 0;
+    padding: 10px 0 10px 25px; 
+    position: relative;
+}
+
+
+.tree li::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+}
+
+.tree li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-left: 2px solid #000000;
+}
+
+.tree li:last-child::after {
+    height: 22px; 
+    font-size: 22px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+
+
+footer {
+  background-color: #896e72;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0; 
+  width: 100%;
+  margin-top: auto; 
+}
+
+.the-table {
+  border: 20px solid #000000;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.the-table, .the-table th, .the-table td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.the-table {
+  border: 3px solid #000000;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.the-table th, .the-table td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: left;
+}
+
+.circle-list li {
+  list-style-type: disc;
+  padding-left: 20px;
+  display: list-item;
+  margin-bottom: 10px;
+}
+
+
+
