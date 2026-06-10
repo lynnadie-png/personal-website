@@ -1,2 +1,2 @@
 # personal-website
-Personal website developed for UTS Web Systems.
+Personal website developed using HTML and CSS for UTS Web Systems.
